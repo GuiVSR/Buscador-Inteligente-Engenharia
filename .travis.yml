@@ -11,4 +11,4 @@ script:
  - bundle exec cucumber
 
 branches:
- - master
+ - main
