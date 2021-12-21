@@ -1,13 +1,4 @@
 language: ruby
-
 rvm:
- - 1.29.12
-
-script:
- - bundle update --bundler
- - bundle exec rake db:migrate
- - bundle exec rspec spec
- - bundle exec cucumber
-
-branches:
- - main
+ - 2.2
+ - jruby
