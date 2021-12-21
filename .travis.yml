@@ -1,7 +1,7 @@
 language: ruby
 
 rvm:
- - 2.2
+ - 1.29.12
 
 script:
  - bundle update --bundler
