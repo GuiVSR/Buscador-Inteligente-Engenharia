@@ -3,4 +3,4 @@ dist: xenial
 rvm: 3.0.2
  
 script:
- — bundle install — jobs=3 — retry=3
+ — bundle install
